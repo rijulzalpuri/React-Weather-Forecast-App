@@ -5,7 +5,7 @@ import routes from './modules/app/';
 import { render } from 'react-dom'
 
 render(
-  <Router history={history}>
+  <Router>
     {routes}
   </Router>,
   document.getElementById('root'));
