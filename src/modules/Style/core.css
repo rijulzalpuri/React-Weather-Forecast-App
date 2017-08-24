@@ -1,0 +1,51 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 2px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+td {
+    color: white
+}
+
+body{
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://d1lnup2jodgm9x.cloudfront.net/uploads/search_location/hero_image/16/large_Santa_Barbara.jpg')
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+.Left{
+    display: inline-block;
+    left: 25px;
+    position: relative;
+    width: 50%;
+}
+.TableRight{
+    width: 80%
+}
+.Right{
+    display: inline-block;
+    position: relative;
+    width: 50%;
+}
+.LocationInput{
+    width: 50%;
+    top: 20px;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 50px;
+}
+.InlineStyle{
+    display: inline-block;
+    padding-right: 30px;
+}
