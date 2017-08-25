@@ -20,7 +20,7 @@ export default class App extends Component {
     // Pass Time in Ms to set the Throttle default 200ms
     var ThrottleTime = 200
     //Checking if Result is Throttled or not and making API Call
-    if (CheckVal = Throttle(ThrottleTime)) {
+    if (CheckVal = Throttle(ThrottleTime) && e.target.value!='') {
       GetWData(e.target.value).then(res => {
         this.setState({
           WeatherData: res.data.query.count > 0 ? res.data.query.results.channel : undefined
